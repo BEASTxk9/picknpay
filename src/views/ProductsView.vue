@@ -14,7 +14,15 @@ export default {
 components: {
     ProductCard,
     Nav
-}
+},
+mounted() {
+        this.$store.dispatch("getproducts")
+    },
+    computed: {
+        products() {
+            return this.$store.state.products
+        }
+        }
 }
 </script>
 
