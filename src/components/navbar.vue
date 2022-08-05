@@ -1,4 +1,6 @@
 <template>
+<!-- navbar.vue fake nav cause code is dumb (-_-)7 -->
+
    <!-- <nav>
     <router-link to="/">Pick 'n Pay</router-link> 
     

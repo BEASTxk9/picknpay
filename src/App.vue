@@ -1,6 +1,6 @@
 <template>
 
-<!-- fake nav cause code is dumb (-_-)7 -->
+<!-- navbar.vue fake nav cause code is dumb (-_-)7 -->
   <Nav></Nav>
     
 </template>
