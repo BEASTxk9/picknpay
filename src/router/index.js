@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const routes = [
-  
+
   {
     path: '/',
     name: 'home',
@@ -13,6 +13,11 @@ const routes = [
     path: '/products',
     name: 'products',
     component: () => import('../views/ProductsView.vue')
+  },
+  {
+    path: '/admin',
+    name: 'admin',
+    component: () => import('../views/AdminView.vue')
   }
 
 ]
