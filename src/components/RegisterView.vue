@@ -13,7 +13,7 @@
                     <input type="text" placeholder="gender" v-model="gender"><br>
 <!-- address -->
                     <input type="text" placeholder="address" v-model="address"><br>
-                    <!-- userole -->
+<!-- userole -->
                     <input type="text" placeholder="userole" name="userRole"><br>
 <!-- email -->
                     <input type="text" placeholder="email" v-model="email"><br>
@@ -25,6 +25,11 @@
             </div>
         </div>
      </div>
+
+
+
+
+   
 </template>
 
 <script>

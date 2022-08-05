@@ -1,6 +1,8 @@
-import { createStore } from 'vuex';
-import axios from 'axios';
-
+import {
+  createStore
+} from 'vuex'
+import axios from 'axios'
+// const picknpayUrl = "https://pick-n-pay-duo-project.herokuapp.com"; 
 export default createStore({
   state: {
     products: null

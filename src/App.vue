@@ -1,23 +1,25 @@
 <template>
-
-<Nav></Nav>
-
-  <router-view/>
+  <Nav></Nav>
+    
 </template>
-
 <script>
-import Nav from './components/NavView.vue'
-
+import Nav from "./components/navbar.vue"
 export default {
+   components: {
+    Nav
+   }
+};
 
-components: {
-  Nav
-}
 
-}
+
+
+
 </script>
+<style scoped>
 
-<style>
+
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,16 +28,6 @@ components: {
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
-}
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
