@@ -28,8 +28,6 @@
 <nav>
 
     <router-link to="/products">Shop</router-link><br>
-     <router-link to="/">Login</router-link><br>
-      <router-link to="/">Register</router-link><br>
       <router-link to="/Admin"><i class="fa-solid fa-user"></i></router-link>
 
   </nav>

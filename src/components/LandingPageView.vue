@@ -273,6 +273,7 @@ h1 {
   color: rgb(0, 48, 85);
 }
 .home {
+
   background: linear-gradient(rgba(254, 250, 250, 0.516), rgba(0, 0, 0, 0.6)),
     url("https://i.postimg.cc/kG6ZSrKx/grocery-1232944.jpg");
   background-size: cover;
